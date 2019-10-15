@@ -4,14 +4,14 @@ Este desafio avaliará seus conhecimentos em HTML, CSS, bibliotecas de component
 
 Este é o código-fonte de uma página de busca de resenhas de filmes.
 
-Veja uma demo da aplicação rodando [aqui](). Tente buscar por um título em inglês, como "Titanic" ou "Avengers".
+Veja uma demo da aplicação rodando [aqui](https://build.ribaptista.now.sh/). Tente buscar por um título em inglês, como "Titanic" ou "Avengers".
 
 Esta app foi criada a partir do utilitário [Create React App](https://github.com/facebook/create-react-app), e portanto segue o
 padrão desta ferramenta para instalação e inicialização da app (`npm install` e `npm start`).
 
 Como pode perceber, precisamos que você aplique estilo nesta página.
 
-Ao final do teste, a página deve se parecer com [este screenshot](https://bitbucket.org/wearebluedigital/interview-react/raw/16d8aaf1f30c466df0231119ebcf77f45958d080/docs/img/stylized.png).
+Ao final do teste, a página deve se parecer com [este screenshot](https://raw.githubusercontent.com/ribaptista/interview-react/master/docs/img/stylized.png).
 
 Você pode usar a biblioteca de componente que achar mais apropriada. Uma dica é a biblioteca `react-bootstrap`.
 
