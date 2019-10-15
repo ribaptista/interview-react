@@ -1,9 +1,22 @@
+html, body {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
 .App {
   text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  width: 100vw;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40vmin;  
 }
 
 .App-header {
@@ -19,4 +32,79 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.headerContainer {
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    text-align: center;
+    padding: 12px;
+    padding-bottom: 24px;
+}
+
+.formContainer {
+    width: 70%;
+    margin: auto;
+}
+
+.formContainer .textInput {
+    border: 1px solid #ddd;
+    border-right: 0px;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 46px;
+    color: #444;
+    padding: 14px 10px;
+    width: calc(100% - 104px);
+}
+
+.formContainer .button {
+    background-color: #386ee4;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 46px;
+    color: #fff;
+    min-height: 99px;
+    padding: 0px 16px;
+}
+
+.moviesContainer {
+    text-align: left;
+    margin-top: 110px;
+    max-width: 70vw;
+}
+
+.movieList {
+    list-style: none;
+    padding: 0px;
+}
+
+.movieItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+    padding: 16px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.movieItem h5 {
+    line-height: 1.4;
+}
+
+.movieItem h5 span {
+    color: #adadad;
+}
+
+.movieItem .movieContent {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
