@@ -17,6 +17,8 @@ Você pode usar a biblioteca de componente que achar mais apropriada. Uma dica �
 
 Lembre-se que durante a aplicação do visual você pode (e deve) alterar a estrutura do HTML, para que fique mais semântica.
 
+É desejável que o layout seja responsivo (apresentado corretamente em mobile).
+
 A entrega de sua implementação deverá ser feita em forma de (PR) pull request neste mesmo repositório.
 
 Bom teste!
