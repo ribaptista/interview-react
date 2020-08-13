@@ -1,7 +1,7 @@
 import React from 'react';
 import MovieList from './MovieList';
 import SearchForm from './SearchForm';
-import './App.css';
+import { Container } from './App.styled'
 
 class App extends React.Component {
   constructor(props) {
@@ -37,10 +37,10 @@ class App extends React.Component {
   render() {
     const { total, movies } = this.state;
     return (
-      <div>
+      <Container>
         <SearchForm searchFn={this.fetchMovies} />
         <MovieList total={total} movies={movies} />
-      </div>)
+      </Container>)
   }
 }
 

@@ -1,16 +1,17 @@
 import React from 'react';
 import MovieItem from './MovieItem';
+import { MovieListContainer, Legend } from './MovieList.styled'
 
 const MovieList = ({ total, movies }) => {
   return (
-    <div>
-      <span>{total} movies found</span>
+    <MovieListContainer>
+      <Legend>{total} movies found</Legend>
       {movies.map(movie => {
         return (
           <MovieItem movie={movie} />
         );}
       )}
-    </div>
+    </MovieListContainer>
   )
 }
 

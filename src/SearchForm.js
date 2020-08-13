@@ -1,4 +1,5 @@
 import React from 'react';
+import { StyledInputText, Button, InputContainer } from './SearchForm.styled'
 
 class SearchForm extends React.Component {
   constructor(props) {
@@ -17,12 +18,14 @@ class SearchForm extends React.Component {
     const { search } = this.state;
     return (
       <form onSubmit={(event) => {event.preventDefault(); this.props.searchFn(this.state.search)}}>
-        <input
-          type="text"
-          placeholder="Movie search"
-          value={search} onChange={this.handleChange}
-        />
-        <input type="submit" value="Go!"/>
+        <InputContainer>
+          <StyledInputText
+              type="text"
+              placeholder="Movie search"
+              value={search} onChange={this.handleChange}
+            />
+          <Button>Go!</Button>
+        </InputContainer>
       </form>
     )
   }
